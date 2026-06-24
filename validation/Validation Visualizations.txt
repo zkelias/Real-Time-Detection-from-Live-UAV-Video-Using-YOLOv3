@@ -1,0 +1,35 @@
+Validation Visualizations
+
+This folder contains example predictions from the YOLO object detection model on validation images.
+
+Each image shows a comparison between ground truth annotations and model predictions.
+
+Visualization Details:
+
+- Green bounding boxes (GT): Ground truth labels from the dataset
+- Red bounding boxes (P): Model predictions
+- Labels include:
+  - Object class (e.g., pedestrian, car, bicycle)
+  - Confidence score for predictions
+
+Purpose:
+
+These images are used to qualitatively evaluate model performance by comparing predicted detections against true labeled objects.
+
+Observations:
+
+- The model performs well on larger, clearly visible objects such as cars and pedestrians in open areas.
+- Performance decreases in dense scenes with heavy object overlap (e.g., crowded urban environments).
+- Some false positives are visible in cluttered backgrounds and distant objects.
+- Small objects and partially occluded objects are more difficult for the model to detect accurately.
+- Confidence scores are generally higher for well-localized detections and lower for ambiguous cases.
+
+Notes:
+
+- Validation images include a mix of urban and semi-rural environments.
+- Scenes contain varying levels of object density, scale, and occlusion.
+- These examples help highlight both strengths and limitations of the trained model.
+
+Summary:
+
+The validation predictions demonstrate that the model is capable of detecting multiple object classes in complex scenes, but performance varies based on object size, scene density, and visual complexity.

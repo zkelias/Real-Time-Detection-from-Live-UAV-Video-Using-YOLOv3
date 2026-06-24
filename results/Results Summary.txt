@@ -1,0 +1,32 @@
+Results Summary
+
+This folder contains visualizations and performance metrics from training and evaluating a YOLO-based object detection model.
+
+Files:
+
+- anchor_clusters_classes.png  
+  Scatter plot of normalized bounding box widths and heights, colored by class label.  
+  This visualization shows how bounding box dimensions vary across different object categories in the dataset.
+
+- anchor_clusters.png  
+  K-means clustering of bounding box dimensions used for anchor box generation.  
+  Red X markers represent cluster centers (anchor boxes).  
+  This helps optimize anchor box selection for improved detection performance.
+
+- per_class_ap.png  
+  Bar chart showing Average Precision (AP@0.5) for each object class.  
+  This highlights variation in detection performance across different categories.
+
+- final_metrics.png  
+  Summary of overall validation performance metrics:
+  - Precision
+  - Recall
+  - mAP@0.5
+  - mAP@0.5:0.95  
+  These metrics evaluate the model’s accuracy and detection quality.
+
+Notes:
+
+- Bounding box dimensions are normalized relative to image size.
+- K-means clustering was used to determine optimal anchor box configurations.
+- Performance variability across classes may be due to class imbalance, object size, or dataset complexity.
