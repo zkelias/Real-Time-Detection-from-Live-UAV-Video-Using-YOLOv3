@@ -120,14 +120,14 @@ These examples show:
 - Some bounding box misalignment during motion
 - Improved performance in less crowded scenes
 
----
-
 ### Performance Observations
 
 - Strong performance in less crowded scenes
 - Lower confidence on smaller objects
 - Occasional bounding box misalignment
 - Real-time processing remains stable at ~15 FPS
+
+---
 
 ## Challenges
 
