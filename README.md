@@ -1,4 +1,4 @@
-# Real-Time-Detection-from-Live-UAV-Video-Using-YOLOv3
+# Real-Time UAV Object Detection from Live UAV Video (YOLOv3)
 
 ## Overview
 This project implements a real-time object detection system using a YOLOv3-based model to identify pedestrians, bicycles, and vehicles from UAV (drone) video.
