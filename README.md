@@ -107,11 +107,27 @@ These examples show:
 
 The system achieves approximately **15 FPS**, enabling smooth real-time detection.
 
+### Example Live Detection Frames
+
+Below are sample frames from the live UAV video stream:
+
+![Live Example](live_video/frame_1.jpg)
+![Live Example](live_video/frame_2.jpg)
+
+These examples show:
+- Strong detection of larger vehicles in real-time
+- Lower confidence predictions for smaller objects
+- Some bounding box misalignment during motion
+- Improved performance in less crowded scenes
+
+---
+
+### Performance Observations
+
 - Strong performance in less crowded scenes
 - Lower confidence on smaller objects
 - Occasional bounding box misalignment
-
----
+- Real-time processing remains stable at ~15 FPS
 
 ## Challenges
 
