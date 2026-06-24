@@ -139,13 +139,14 @@ The system achieves approximately **15 FPS**, enabling smooth real-time detectio
 - OpenCV
 - Docker (RTMP streaming)
 - YOLOv3
+- Jupyter
 
 ---
 
 ## Author
 Zachary Elias  
 Clemson University  
-Computer Science / CIS  
+Computer Science / Computer Information Systems
 
 ---
 
