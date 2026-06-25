@@ -79,10 +79,10 @@ These results show the model can detect objects but has difficulty with precise 
 ## Visual Results
 
 ### Detection Performance
-![Metrics](results/final_metrics.png)
+![Metrics](results/metrics.png)
 
 ### Per-Class Performance
-![Per Class AP](results/per_class_ap.png)
+![Per Class AP](results/per_class.png)
 
 ### Anchor Box Clustering
 ![Anchors](results/anchor_clusters.png)
