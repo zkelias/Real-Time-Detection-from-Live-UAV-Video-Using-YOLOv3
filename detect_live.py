@@ -12,7 +12,7 @@ from config import DEVICE, NUM_CLASSES, ANCHORS
 # =========================
 # SETTINGS
 # =========================
-RTMP_URL = "rtmp://172.20.10.5:1935/live/stream"
+RTMP_URL = "rtmp://ip_adress_goes_here/live/stream"
 CHECKPOINT_PATH = "checkpoint.pth.tar"
 INPUT_SIZE = 416
 CONF_THRESH = 0.35
