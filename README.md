@@ -93,8 +93,7 @@ These results show the model can detect objects but has difficulty with precise 
 
 Example predictions on validation images (green = ground truth, red = predictions):
 
-![Example](validation/vis_005_0000001_05499_d_0000010.jpg)
-![Example](validation/vis_010_0000021_00500_d_0000002.jpg)
+![Drone Video](drone_video.mp4)
 
 These examples show:
 - Accurate detection of larger vehicles
@@ -109,12 +108,13 @@ The system achieves approximately **15 FPS**, enabling smooth real-time detectio
 
 ### Example Live Detection Frames
 
-Below are sample frames from the live UAV video stream:
+Below is a piece from the live UAV video stream:
 
 ![Live Example](live_video/frame_1.jpg)
 ![Live Example](live_video/frame_2.jpg)
 
 These examples show:
+- Bad frame rate because it was transmitting to a laptop
 - Strong detection of larger vehicles in real-time
 - Lower confidence predictions for smaller objects
 - Some bounding box misalignment during motion
@@ -125,7 +125,7 @@ These examples show:
 - Strong performance in less crowded scenes
 - Lower confidence on smaller objects
 - Occasional bounding box misalignment
-- Real-time processing remains stable at ~15 FPS
+- Real-time processing remains around ~12 FPS
 
 ---
 
@@ -156,6 +156,7 @@ These examples show:
 - Docker (RTMP streaming)
 - YOLOv3
 - Jupyter
+- VSCode
 
 ---
 
