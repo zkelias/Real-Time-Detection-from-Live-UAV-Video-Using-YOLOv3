@@ -93,7 +93,8 @@ These results show the model can detect objects but has difficulty with precise 
 
 Example predictions on validation images (green = ground truth, red = predictions):
 
-![Drone Video](drone_video.mp4)
+![Validation Image](validation/vis_005_0000001_05499_d_0000010)
+![Validation Image](validation/vis_010_0000021_00500_d_0000002)
 
 These examples show:
 - Accurate detection of larger vehicles
@@ -104,14 +105,13 @@ These examples show:
 
 ## Real-Time Output
 
-The system achieves approximately **15 FPS**, enabling smooth real-time detection.
+The system achieves approximately **12-15 FPS**, enabling smooth real-time detection.
 
 ### Example Live Detection Frames
 
 Below is a piece from the live UAV video stream:
 
-![Live Example](live_video/frame_1.jpg)
-![Live Example](live_video/frame_2.jpg)
+![Drone Video](drone_video.mp4)
 
 These examples show:
 - Bad frame rate because it was transmitting to a laptop
