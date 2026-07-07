@@ -93,8 +93,8 @@ These results show the model can detect objects but has difficulty with precise 
 
 Example predictions on validation images (green = ground truth, red = predictions):
 
-![Validation Image](validation/vis_005_0000001_05499_d_0000010)
-![Validation Image](validation/vis_010_0000021_00500_d_0000002)
+![Validation Image](validation/vis_005_0000001_05499_d_0000010.jpg)
+![Validation Image](validation/vis_010_0000021_00500_d_0000002.jpg)
 
 These examples show:
 - Accurate detection of larger vehicles
