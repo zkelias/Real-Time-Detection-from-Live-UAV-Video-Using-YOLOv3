@@ -111,9 +111,9 @@ The system achieves approximately **12-15 FPS**, enabling smooth real-time detec
 
 Below are some video frames from the live drone video:
 
-![Live Image](validation/Screenshot 2026-07-29 081237.png)
-![Live Image](validation/Screenshot 2026-07-29 081311.png)
-![Live Image](validation/Screenshot_2026-07-29_081356.png)
+![Live Image](validation/LiveDrone_1.png)
+![Live Image](validation/LiveDrone_2.png)
+![Live Image](validation/LiveDrone_3.png)
 
 These examples show:
 - Bad frame rate because it was transmitting to a laptop
