@@ -113,7 +113,7 @@ Below are some video frames from the live drone video:
 
 ![Live Image](validation/Screenshot 2026-07-29 081237.png)
 ![Live Image](validation/Screenshot 2026-07-29 081311.png)
-![Live Image](validation/Screenshot 2026-07-29 081356.png)
+![Live Image](validation/Screenshot_2026-07-29_081356.png)
 
 These examples show:
 - Bad frame rate because it was transmitting to a laptop
