@@ -109,9 +109,11 @@ The system achieves approximately **12-15 FPS**, enabling smooth real-time detec
 
 ### Example Live Detection Frames
 
-Below is a piece from the live UAV video stream:
+Below are some video frames from the live drone video:
 
-![Drone Video](drone_video.mp4)
+![Live Image](validation/Screenshot 2026-07-29 081237.png)
+![Live Image](validation/Screenshot 2026-07-29 081311.png)
+![Live Image](validation/Screenshot 2026-07-29 081356.png)
 
 These examples show:
 - Bad frame rate because it was transmitting to a laptop
